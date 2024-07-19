@@ -38,7 +38,17 @@ C:\Users\User\.ssh\id_rsa
 ```
 /home/k8s/.ssh/id_rsa
 ```
-### 10. Пробуeм подключится 
+### 10 Дополнительной требуется на локальной машине к которой вы хотите подключится надо в данной дериктории создать файл `authorized_keys` и наполнить его содержимым файлв mykey.pub и все
+```
+/home/user/.ssh/authorized_keys
+```
+### Ниже будет команда для быстрого наполнение файла `authorized_keys` поменяйте на свои значения
+```
+bash -c 'cat <<EOF > /home/user/.ssh/authorized_keys
+ssh-rsa Ajsdnvsdnvunwvmirjmovk/Jy5niwjuegoivjqrijiqwjijqwijfiwejfijqweiojfioqwejifjqweiojfiojwqeiogjurqejbiuerwjuijqiufjueqrjuijfuiqrengjuihjuvqwurjguwejifjiweojfiojiogjweiojfiqwejioggjwqeuighuiweqhfujwefujqweugjuiweqjivjijgoierjqiohjqiuhfuihweuihfuhweuihfuhwwudhguweheuihgsdhsufhuhgquhwueihgiuwhiufhuidhguihweqiughuidhskjghqiuweghuwheirrfjqweifjiuqwehuifhqwiueghuihdifuhqweiueghiuqwehuifhdsiushgiuqwehiughqewiuhgiuwwhdugfhiquweehgiuewhiguhdiughewiuhiguhqwiueghiuqewhgiuhqweiughqwiueghiudshguiweheiughqwieughiuqwehgiuqwhegiudhssughqwwutAnxgTRPpFTpOH0nKzMgujH5bYwy8DGSSs2z5tdE1j+o7K4s7PGF82YfDAbhtODF8fsqusKyNGct1NAatW5UTFQScBxJ1Ct10= user@pc
+EOF'
+```
+### 11. Пробуeм подключится 
 ```
 ssh user@***.***.***.***
 ```
