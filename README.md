@@ -44,9 +44,10 @@ C:\Users\User\.ssh\id_rsa
 ```
 ### Ниже будет команда для быстрого наполнение файла `authorized_keys` поменяйте на свои значения
 ```
-bash -c 'cat <<EOF > /home/user/.ssh/authorized_keys
-ssh-rsa Ajsdnvsdnvunwvmirjmovk/Jy5niwjuegoivjqrijiqwjijqwijfiwejfijqweiojfioqwejifjqweiojfiojwqeiogjurqejbiuerwjuijqiufjueqrjuijfuiqrengjuihjuvqwurjguwejifjiweojfiojiogjweiojfiqwejioggjwqeuighuiweqhfujwefujqweugjuiweqjivjijgoierjqiohjqiuhfuihweuihfuhweuihfuhwwudhguweheuihgsdhsufhuhgquhwueihgiuwhiufhuidhguihweqiughuidhskjghqiuweghuwheirrfjqweifjiuqwehuifhqwiueghuihdifuhqweiueghiuqwehuifhdsiushgiuqwehiughqewiuhgiuwwhdugfhiquweehgiuewhiguhdiughewiuhiguhqwiueghiuqewhgiuhqweiughqwiueghiudshguiweheiughqwieughiuqwehgiuqwhegiudhssughqwwutAnxgTRPpFTpOH0nKzMgujH5bYwy8DGSSs2z5tdE1j+o7K4s7PGF82YfDAbhtODF8fsqusKyNGct1NAatW5UTFQScBxJ1Ct10= user@pc
+bash -c 'cat <<EOF > /home/medexpert/.ssh/authorized_keys
+ssh-rsa /*****************************************************************r0lh3q1kDsLrAF5Y3IlemyVcknkVboi65Vo5Z4wzQb9OJ7Ak2kiLU8I2yfhWerrdDUTcRZjx1+bZfwVkOZkDvILqsBACJ6+74kY2CGLy8eFfJOS0KPXWZaiap/wrIHGa179rFSWXmghAE/ERgzG2aAamPz6Ty0utAnxgTRPpFTpOH0nKzMgujH5bYwy8DGSSs2z5tdE1j+o7K4s7PGF82YfDAbhtODF8fsqusKyNGct1NAatW5UTFQScBxJ1Ct10= kb5r@DESKTOP-VP10TEQ
 EOF'
+
 ```
 ### 11. Пробуeм подключится 
 ```
