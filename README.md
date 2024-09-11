@@ -15,7 +15,7 @@ ssh-keygen
 ### 4. Открыть файл или перекинуть данные файла `mykey.pub`
 ### 5. Данные необходимо перекинуть в данную директорию 
 ```
-/home/k8s/.ssh
+/home/$USER/.ssh
 ```
 ### В файл `authorized_keys`
 ### 6. Находясь в директорию в которой создавали ssh ключи, надо выполнить
@@ -36,11 +36,11 @@ C:\Users\User\.ssh\id_rsa
 ---
 ## `Для Linux`
 ```
-/home/k8s/.ssh/id_rsa
+/home/$USER/.ssh/id_rsa
 ```
 ### 10 Дополнительной требуется на локальной машине к которой вы хотите подключится надо в данной дериктории создать файл `authorized_keys` и наполнить его содержимым файлв mykey.pub и все
 ```
-/home/user/.ssh/authorized_keys
+/home/$USER/.ssh/authorized_keys
 ```
 ### Ниже будет команда для быстрого наполнение файла `authorized_keys` поменяйте на свои значения
 ```
@@ -72,7 +72,7 @@ ssh-keygen
 ### 4. Open a file or transfer the data of the `mykey.pub` file
 ### 5. The data must be transferred to this directory 
 ``
-/home/k8s/.ssh
+/home/$USER/.ssh
 ``
 ### To the `authorized_keys` file
 ### 6. Being in the directory where ssh keys were created, you need to run
@@ -93,7 +93,7 @@ C:\Users\User\.ssh\id_rsa
 ---
 ## `For Linux`
 ```
-/home/k8s/.ssh/id_rsa
+/home/$USER/.ssh/id_rsa
 ```
 ### 10. Trying to connect 
 ``
