@@ -1,4 +1,3 @@
-# Guide-how-to-connect-via-ssh-via-ssh-key
 # Гайд как подключить по ssh через ssh-key
 
 ## Буду использовать 
